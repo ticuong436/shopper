@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "name": "CFD",
+            "location": "11 Phan Kế Binh",
+            "phone": "0123456789",
+            "storehourse": "10 am - 10 pm EST, 6 days a week",
+            "linkGoogle": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2816663015815!2d106.69721651480097!3d10.789725892312536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528caafa7703d%3A0xd655aeb0c7040512!2zMTEgUGhhbiBL4bq_IELDrW5oLCDEkGEgS2FvLCBRdeG6rW4gMSwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5o!5e0!3m2!1svi!2s!4v1624451281598!5m2!1svi!2s"
+        },
+        {
+            "name": "Đại Học Hoa Sen",
+            "location": "255 Nguyễn Văn Đậu",
+            "phone": "0123456789",
+            "storehourse": "10 am - 10 pm EST, 6 days a week",
+            "linkGoogle": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.54769691663!2d106.6628181153385!3d10.769299592326409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f7c8bf050ff%3A0x4fa87595d124cc0c!2zxJDhuqFpIGjhu41jIEhvYSBTZW4!5e0!3m2!1svi!2s!4v1624451407414!5m2!1svi!2s"
+        },
+        {
+            "name": "Đại học Tài chính - Marketing",
+            "location": "255 Nguyễn Văn Đậu",
+            "phone": "0123456789",
+            "storehourse": "10 am - 10 pm EST, 6 days a week",
+            "linkGoogle": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.776032620451!2d106.71654031480051!3d10.751736992338275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f7c695a2bcb%3A0x799c9d4467750124!2zNCBUcuG6p24gWHXDom4gU2_huqFuLCBUw6JuIFRodeG6rW4gVMOieSwgUXXhuq1uIDcsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCA3MjkxMA!5e0!3m2!1svi!2s!4v1624528690916!5m2!1svi!2s"
+        }
+    ]
+}
