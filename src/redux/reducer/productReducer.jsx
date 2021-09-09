@@ -3,7 +3,7 @@ import { PRODUCT, CATEGORIES, LOADING } from '../type'
 import reduxToolkit from "../../core/reduxToolkit"
 
 let initState = {
-    product: JSON.parse(localStorage.getItem('product')).data || [],
+    product: JSON.parse(localStorage.getItem('product')) || [],
     categories: JSON.parse(localStorage.getItem('categories')) || [],
     paginate: null,
     loading: true,
@@ -14,7 +14,7 @@ export default function productReducer(state = initState, action) {
     switch (action.type) {
 
         case PRODUCT:
-            localStorage.setItem('product', JSON.stringify(action.payload))
+            localStorage.setItem('product', JSON.stringify(action.payload.data))
             return {
                 ...state,
                 product: action.payload.data,
