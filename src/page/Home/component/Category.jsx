@@ -1,7 +1,13 @@
+import { useEffect, useRef } from "react"
 import { useTranslate } from "../../../core/useTranslate"
 
 export default function Category() {
+    let $ = window.$;
     let { t } = useTranslate()
+    // let thisRef = useRef()
+    // useEffect(() => {
+    //     $(thisRef.current).flickity()
+    // }, [])
     return (
         <section>
             <div className="row no-gutters d-block d-lg-flex flickity flickity-lg-none" data-flickity="{&quot;watchCSS&quot;: true}">

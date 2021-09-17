@@ -2,13 +2,18 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import reactDOM from "react-dom"
 import ListCart from "./component/ListCart"
+import { useRef } from "react";
 export default function Cart() {
 
     let { list, num, amount } = useSelector(store => store.cart)
+    let ref = useRef()
 
+    const handleClose = function () {
+        // ref.current.style.display = "none"
+    }
     return reactDOM.createPortal(
 
-        <div className="modal fixed-right fade" id="modalShoppingCart" tabIndex={-1} role="dialog" aria-hidden="true">
+        <div className="modal fixed-right fade" id="modalShoppingCart" ref={ref} tabIndex={-1} role="dialog" aria-hidden="true">
             <div className="modal-dialog modal-dialog-vertical" role="document">
                 {/* Full cart (add `.d-none` to disable it) */}
                 <div className="modal-content">
@@ -34,7 +39,7 @@ export default function Cart() {
                     </div>
                     {/* Buttons */}
                     <div className="modal-body">
-                        <Link className="btn btn-block btn-dark" to="/checked">Continue to Checkout</Link>
+                        <Link className="btn btn-block btn-dark" onClick={handleClose} to="/checked">Continue to Checkout</Link>
                         <Link className="btn btn-block btn-outline-dark" to="/shopping-cart">View Cart</Link>
                     </div>
                 </div>

@@ -35,3 +35,15 @@
 .product-option .option-value {
     margin-left: 15px;
 }
+@media screen and (max-width: 992px) {
+    .googleStore {
+        width: 100%;
+        height: 350px;
+    }
+}
+@media screen and (max-width: 667px) {
+    .googleStore {
+        width: 100%;
+        height: 350px;
+    }
+}

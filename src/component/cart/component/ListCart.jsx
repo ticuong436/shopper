@@ -29,6 +29,7 @@ export default function ListCart(props) {
             dispatch(Quantity({ _id, num }))
         }
 
+
     }
 
 
@@ -50,14 +51,15 @@ export default function ListCart(props) {
                     {/*Footer */}
                     <div className="d-flex align-items-center">
                         {/* Select */}
-                        <button onClick={handleDecrease}>-</button>
+                        <button style={{ width: "25px", borderRadius: "5px" }} onClick={handleDecrease}>-</button>
                         <input
+                            style={{ width: "50px" }}
                             value={input}
                             onChange={(e) => setInput(e.target.value)}
                             onKeyPress={handleQuantity}
                         />
 
-                        <button onClick={handleIncrease} >+</button>
+                        <button style={{ width: "25px", borderRadius: "5px" }} onClick={handleIncrease} >+</button>
                         {/* Remove */}
                         <a className="font-size-xs text-gray-400 ml-auto" href="#!">
                             <i className="fe fe-x" onClick={handleRemove} /> Remove

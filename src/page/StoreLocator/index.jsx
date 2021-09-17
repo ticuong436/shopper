@@ -70,7 +70,7 @@ export default function StoreLocator() {
                         </div>
                         <div className="col-12 col-md-7 col-lg-8">
                             {/* Map */}
-                            <iframe src={link} width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+                            <iframe className="googleStore" src={link} width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
                         </div>
                     </div>
                 </div>
