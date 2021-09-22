@@ -108,7 +108,7 @@ export default function Register() {
                                         First Name *
                                     </label>
 
-                                    <input value={form.firstname} onChange={inputChange} name="firstname" className="form-control form-control-sm" id="registerLastName" type="text" placeholder="Last Name *" required />
+                                    <input value={form.firstname} onChange={inputChange} name="firstname" className="form-control form-control-sm" id="registerLastName" type="text" placeholder="First Name *" required />
                                     {
                                         error.firstname && <p className="error-text">{error.firstname}</p>
                                     }

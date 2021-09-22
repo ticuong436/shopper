@@ -23,7 +23,7 @@ export default function Category() {
                         <div className="card-body mt-auto py-8">
                             {/* Button */}
                             <a className="btn btn-white stretched-link" href="shop.html">
-                                {t(`Shop Wome`)} n <i className="fe fe-arrow-right ml-2" />
+                                {t(`Shop Women`)} n <i className="fe fe-arrow-right ml-2" />
                             </a>
                         </div>
                     </div>
